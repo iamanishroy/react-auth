@@ -1,0 +1,27 @@
+body {
+  background-color: #fff;
+}
+
+.tandc {
+  margin: 2rem 1rem;
+  font-weight: 500;
+}
+
+.tandc h2 {
+  margin: 1rem 0;
+  color: #080808;
+}
+
+.tandc p {
+  margin: 0.8rem 0;
+  color: #42413d;
+}
+.tandc ul {
+  margin: 0 2rem;
+}
+
+.tandc a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #817e79;
+}

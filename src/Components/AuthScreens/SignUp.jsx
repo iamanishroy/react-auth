@@ -46,8 +46,14 @@ const SignUp = () => {
             />
             <label htmlFor="fruit4">
               <p>
-                I agree to the <a href="/">Terms & Conditions</a> and{" "}
-                <a href="/">Privacy Policy</a>
+                I agree to the{" "}
+                <NavLink exact to="/terms">
+                  Terms & Conditions
+                </NavLink>{" "}
+                and{" "}
+                <NavLink exact to="/privacy">
+                  Privacy Policy
+                </NavLink>
               </p>
             </label>
           </div>
