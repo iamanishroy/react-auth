@@ -1,0 +1,128 @@
+.topNav button {
+  margin: 30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  color: #ed4c67;
+  font-size: 1rem;
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main h3 {
+  font-weight: 700;
+  margin: 10px 45px 25px 45px;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.main .form {
+  margin-top: 20px;
+}
+
+.main .form b {
+  margin-left: 40px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.main .form .inputSet:first-child {
+  margin-bottom: 90px;
+}
+.main .form .inputSet {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+.main .form .inputSet input {
+  width: calc(100% - (50px + 2rem));
+  height: 3.5rem;
+  background-color: #f7b4bf54;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.main .form .inputSet i {
+  position: absolute;
+  transform: translate(-35px, 1.2rem);
+}
+.main .marg-bott {
+  margin-bottom: 20px;
+}
+.main .agreement {
+  margin: 30px;
+}
+.main .buttons {
+  text-align: center;
+}
+.main .buttons button {
+  width: calc(100% - 50px);
+  height: 3.5rem;
+  background-color: #ed4c67;
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.main #gog {
+  background-color: transparent;
+  border: 2px solid #ed4c67;
+  color: #ed4c67;
+  margin-top: -30px;
+}
+.main .lower {
+  text-align: center;
+}
+.main a {
+  color: #ed4c67;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+input[type="checkbox"] + label {
+  display: flex;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 1.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: 0.2s;
+}
+
+input[type="checkbox"] + label:active:before {
+  transform: scale(0);
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: #ed4c67;
+  border-color: #ed4c67;
+  color: #fff;
+}

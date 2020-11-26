@@ -1,0 +1,59 @@
+.authentication {
+  text-align: center;
+  height: auto;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.authentication .topbar {
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.authentication .topbar img {
+  height: 30px;
+}
+
+.authentication .show {
+  margin-top: 50px;
+}
+
+.authentication .show img {
+  width: 80vw;
+}
+
+.authentication .show h3 {
+  margin: 20px 0;
+  font-weight: 700;
+  color: rgba(43, 42, 42, 0.842);
+}
+
+.authentication .show p {
+  margin: 0 60px;
+  font-size: 0.9rem;
+  color: rgba(44, 43, 43, 0.63);
+}
+
+.authentication .buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.authentication .buttons button {
+  height: 2.8rem;
+  width: 35vw;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: #ed4c67;
+  font-weight: 600;
+}
+
+.authentication .buttons #si {
+  background-color: transparent;
+  color: #ed4c67;
+  border: 2px solid #ed4c67;
+}
